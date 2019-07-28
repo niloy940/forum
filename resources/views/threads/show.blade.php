@@ -7,7 +7,7 @@
             <div class="card">
                 <div class="card-header">
                     <a href="#">{{ $thread->creator->name }}</a> posted:
-                    {{ $thread->title }}
+                    <h3>{{ $thread->title }}</h3>
                 </div>
 
                 <div class="card-body">
